@@ -17,7 +17,7 @@ void main(){
 	int num = 4 ;
 	for(int i = 1 ; i <= n ; i++){
 
-		for(int k = 1 ; k <= i  ; k++){
+		for(int k = 1 ; k < i  ; k++){
 			printf("  ");
 			
 		}
@@ -42,9 +42,9 @@ pradnya@pradnya-Latitude-3480:~/Desktop/Assignment/NestedForAssignmet28July$ cc 
 pradnya@pradnya-Latitude-3480:~/Desktop/Assignment/NestedForAssignmet28July$ ./a.out
 Enter no. of rows:
 4
-  4 4 4 4 
-    3 3 3 
-      2 2 
-        1 
+4 4 4 4 
+  3 3 3 
+    2 2 
+      1 
 
 */
